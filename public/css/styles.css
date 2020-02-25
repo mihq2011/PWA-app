@@ -1,8 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* colors */
 :root {
-    --primary: #FFE9D2;
-    --secondary: #FFE1C4;
-    --title: #FF8816;
+    --primary: #D8D8D8;
+    --secondary: #D8D8D8;
+    --title: ;
 }
 
 /* layout styles */
@@ -13,7 +18,7 @@ nav {
 
 nav a {
     text-transform: uppercase;
-    color: var(--title);
+    color: #ffffff;
 }
 
 nav a span {
@@ -23,6 +28,107 @@ nav a span {
 nav .sidenav-trigger {
     margin: 0;
 }
+
+/* top section */
+.top-section .top-bg {
+    border-radius: 50%;
+}
+.top-section .top-bg .responsive-img {
+    height: 50vh;
+    width: 100%;
+    border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px
+}
+
+.top-section .col {
+    margin: 50px 0 0 0;
+
+}
+
+.top-section .col .card-panel{
+    background: #f953c6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+margin: 0 auto;
+}
+
+.top-section .top-icon {
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    
+}
+
+.top-section .top-icon i {
+    font-size: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #f953c6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b91d73,
+ #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b91d73, #f953c6); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #f0f0f0;
+}
+
+.top-section .top-icon p {
+    padding: 25px 10px 0 10px;
+}
+
+/* About */
+.about {
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+.about .about-details {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.about .about-details .row {
+    margin-bottom: 0px;
+}
+
+.about .about-details .row .col{
+    padding: 10px;
+}
+
+.about .about-details .row .col .card-panel {
+    padding: 20px!important;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.about .about-details .row .col .card-panel {
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #4286f4,
+ #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #4286f4, #373B44); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #F0F0F0;
+}
+
+
+.about .about-details .row .book-section {
+    background-color: blue;
+    
+}
+
+.about .about-details .row .video-section {
+    background-color: red;
+}
+
+.about .about-details .row .blog-section {
+    background-color: pink;
+}
+
+.about .about-details .row .other-section {
+    background-color: green;
+}
+
 
 /* recipe styles */
 .recipes {
@@ -57,7 +163,8 @@ nav .sidenav-trigger {
 }
 
 .recipe-delete i {
-    font-size: 18px;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 .recipe-title {
@@ -71,7 +178,7 @@ nav .sidenav-trigger {
 /* form styles */
 
 .add-btn {
-    background: var(--title) !important;
+    background: #DADADA !important;
 }
 
 input {
