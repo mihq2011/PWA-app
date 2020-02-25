@@ -36,20 +36,18 @@ nav .sidenav-trigger {
 .top-section .top-bg .responsive-img {
     height: 50vh;
     width: 100%;
-    border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px
 }
 
 .top-section .col {
-    margin: 50px 0 0 0;
+    margin: 0px 0px 0px 0px;
 
 }
 
 .top-section .col .card-panel{
-    background: #f953c6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 margin: 0 auto;
 }
 
@@ -57,18 +55,6 @@ margin: 0 auto;
     padding: 0 0 0 0;
     margin: 0 auto;
     
-}
-
-.top-section .top-icon i {
-    font-size: 100px;
-    border-radius: 50%;
-    padding: 10px;
-    background: #f953c6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #b91d73,
- #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #b91d73, #f953c6); 
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color: #f0f0f0;
 }
 
 .top-section .top-icon p {
@@ -92,22 +78,20 @@ color: #f0f0f0;
 }
 
 .about .about-details .row .col{
-    padding: 10px;
+    padding: 0 5px 0 5px!important;
 }
 
 .about .about-details .row .col .card-panel {
-    padding: 20px!important;
-    border-radius: 20px;
+    padding: 10px!important;
+    border-radius: 10px;
     cursor: pointer;
     
 }
 
 .about .about-details .row .col .card-panel {
-    background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #4286f4,
- #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #4286f4, #373B44); 
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color: #F0F0F0;
 }
 
