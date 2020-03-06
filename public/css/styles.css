@@ -12,8 +12,7 @@ body {
 
 /* layout styles */
 nav {
-    background: var(--primary);
-    border-bottom: 10px solid var(--secondary);
+    background: #9F1233;
 }
 
 nav a {
@@ -83,35 +82,57 @@ margin: 0 auto;
 
 .about .about-details .row .col .card-panel {
     padding: 10px!important;
-    border-radius: 10px;
+    border-radius: 3px;
     cursor: pointer;
     
 }
 
-.about .about-details .row .col .card-panel {
-    background: #c31432;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color: #F0F0F0;
+.about .about-details .row .col .card-panel.books {
+    background-image: url('https://images.unsplash.com/photo-1491309055486-24ae511c15c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: #D8D8D8;
+    height: 150px;
+    filter: brightness(85%);
+}
+
+.about .about-details .row .col .card-panel.videos {
+    background-image: url('https://images.unsplash.com/photo-1558541966-d1071f7329bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80');
+    background-position: center top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: #D8D8D8;
+    height: 150px;
+    filter: brightness(85%);
+}
+
+.about .about-details .row .col .card-panel.blogs {
+    background-image: url('https://images.unsplash.com/photo-1508612761958-e931d843bdd5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1558&q=80');
+    background-position: center top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: #D8D8D8;
+    height: 150px;
+    filter: brightness(85%);
+}
+
+.about .about-details .row .col .card-panel.other {
+    background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: #D8D8D8;
+    height: 150px;
+    filter: brightness(85%);
+}
+
+.about .about-details .row .col .card-panel:hover {
+    filter: brightness(100%);
+    transition: filter .3s ease-in-out;
 }
 
 
-.about .about-details .row .book-section {
-    background-color: blue;
-    
-}
-
-.about .about-details .row .video-section {
-    background-color: red;
-}
-
-.about .about-details .row .blog-section {
-    background-color: pink;
-}
-
-.about .about-details .row .other-section {
-    background-color: green;
-}
 
 
 /* recipe styles */

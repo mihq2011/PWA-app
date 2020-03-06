@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const renderRecipe = (data, id) => {
     const html = `
         <div class="card-panel recipe white row" data-id="${id}">
-        <img src="img/dish.png" alt="recipe thumb">
+        <img width="30px" src="https://i7.pngguru.com/preview/831/88/865/user-profile-computer-icons-user-interface-mystique.jpg" alt="recipe thumb">
         <div class="recipe-details">
             <div class="recipe-title">${data.title}</div>
             <div class="recipe-ingredients">${data.ingredients}</div>
