@@ -2,6 +2,14 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url('https://images.unsplash.com/photo-1534254910684-68bdc1d69cf7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #D8D8D8;
+    height: 150px;
+    filter: brightness(85%);
 }
 /* colors */
 :root {
